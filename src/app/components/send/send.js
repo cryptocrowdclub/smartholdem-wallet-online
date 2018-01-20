@@ -10,7 +10,7 @@ app.component('send', {
     account: '<',
   },
   controller: class send {
-    constructor ($scope, $peers, lsk, success, error, $mdDialog, $q) {
+    constructor ($scope, $peers, sth, success, error, $mdDialog, $q) {
       this.$scope = $scope
       this.$peers = $peers
       this.success = success
@@ -29,11 +29,11 @@ app.component('send', {
       }
 
       this.$scope.$watch('$ctrl.amount.value', () => {
-        this.amount.raw = lsk.from(this.amount.value) || 0
+        this.amount.raw = sth.from(this.amount.value) || 0
       })
 
       this.$scope.$watch('$ctrl.account.balance', () => {
-        this.amount.max = parseFloat(lsk.normalize(this.account.balance)) - 0.1
+        this.amount.max = parseFloat(sth.normalize(this.account.balance)) - 0.1
       })
     }
 

@@ -20,14 +20,14 @@ import './components/top/top'
 import './components/send/send'
 import './components/transactions/transactions'
 import './components/timestamp/timestamp'
-import './components/lsk/lsk'
+import './components/sth/sth'
 
 import './services/peers/peers'
-import './services/lsk'
+import './services/sth'
 import './services/success'
 import './services/error'
 
-import './filters/lsk'
+import './filters/sth'
 
 angular.element(document).ready(() => {
   angular.bootstrap(document, ['app'])
