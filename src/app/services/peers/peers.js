@@ -10,7 +10,7 @@ app.factory('$peers', ($peer, $timeout) => {
     constructor () {
       this.stack = {
         official: [
-          new $peer({ host: 'node1.smartholdem.io', port: null, ssl: true }),
+          new $peer({ host: 'node0.smartholdem.io', port: null, ssl: true }),
           new $peer({ host: 'node1.smartholdem.io', port: null, ssl: true }),
         ],
         public: [],
