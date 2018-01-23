@@ -1,7 +1,7 @@
 
 import crypto from 'crypto'
 import mnemonic from 'bitcore-mnemonic'
-import lisk from 'sthjs'
+import sthjs from 'sthjs'
 
 import './login.less'
 import './save.less'
@@ -45,8 +45,8 @@ app.component('login', {
 
     go () {
       let passphrase = this.fix(this.input_passphrase)
-      let kp = lisk.crypto.getKeys(passphrase)
-      this.address = lisk.crypto.getAddress(kp.publicKey)
+      let kp = sthjs.crypto.getKeys(passphrase)
+      this.address = sthjs.crypto.getAddress(kp.publicKey)
       
       this.reset()
       this.$timeout(this.onLogin)

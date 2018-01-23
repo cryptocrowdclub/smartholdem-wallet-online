@@ -1,5 +1,5 @@
 
-import lisk from 'sthjs'
+import sthjs from 'sthjs'
 
 const API_PEERS = '/api/peers'
 const API_ACCOUNT = '/api/accounts'
@@ -126,7 +126,7 @@ app.factory('$peer', ($http, $log, $q, $timeout) => {
       let transaction
 
       try {
-        transaction = lisk.transaction.createTransaction(
+        transaction = sthjs.transaction.createTransaction(
           recipient,
           amount,
           smartevent,
