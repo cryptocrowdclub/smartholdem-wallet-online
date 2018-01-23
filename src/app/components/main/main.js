@@ -61,6 +61,7 @@ app.component('main', {
       this.address = ''
     }
 
+
     update () {
       this.reset()
 
