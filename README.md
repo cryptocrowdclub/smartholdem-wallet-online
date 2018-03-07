@@ -1,23 +1,19 @@
-# smartholdem-wallet-online
-Online Wallet SmartHoldem
+# Online Wallet SmartHoldem
 
-# dev
 
+## dev
+
+```shell
 npm install
-
 cd src
-
 npm install
-
 npm run dev
+```
+## build
 
-# build
-
+```shell
 npm install
-
 cd src
-
 npm install
-
 npm run build
-
+```
