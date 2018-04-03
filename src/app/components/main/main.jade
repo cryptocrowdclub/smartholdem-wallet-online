@@ -2,8 +2,10 @@ md-content(layout='row')
     md-content.body-content(flex='100')
 
         md-content.header(layout='row', layout-align='center center', layout-padding)
-            div(flex=33, layout='column', layout-align='center center')
-                // a(href="https://github.com/smartholdem/smartholdem-wallet-online") Inspect me on github
+            div(flex=18, layout='column', layout-align='center center')
+                a(href="https://github.com/smartholdem/smartholdem-wallet-online") Inspect on github
+            div(flex=15, layout='column', layout-align='center center')
+                a(href="https://onlinewallet.smartholdem.io/lightwallet.zip") Download
             div(flex=33, layout='column', layout-align='center center')
                 img.logo(src=require('../../assets/img/logo.png'))
                 span.md-caption.release-version {{$ctrl.clientVersion}}
