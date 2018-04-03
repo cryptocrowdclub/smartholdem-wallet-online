@@ -12,8 +12,8 @@ md-card.offline-hide
                         div(ng-message='required') Required
                         div(ng-message='pattern') Invalid
                 md-input-container.md-block
-                    // label Memo (SmartEvent)
-                    // input(type='text', name='smartevent', ng-model='$ctrl.smartevent.value', ng-disabled='$ctrl.loading', ng-required="false", maxlength="64")
+                    label Message
+                    input(type='text', name='smartevent', ng-model='$ctrl.smartevent.value', ng-disabled='$ctrl.loading', ng-required="false", maxlength="64")
                 md-input-container.md-block
                     label Transaction Amount
                     input(type='number', name='amount', ng-model='$ctrl.amount.value', required, ng-pattern='$ctrl.amount.regexp', ng-disabled='$ctrl.loading', ng-max='$ctrl.amount.max', ignore-mouse-wheel)
