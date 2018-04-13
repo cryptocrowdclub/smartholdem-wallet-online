@@ -1,7 +1,18 @@
 {
+  "description": "SmartHoldem Wallet Online",
   "scripts": {
     "build": "webpack --profile --progress --display-modules --display-exclude --display-chunks --display-cached --display-cached-assets",
     "dev": "webpack-dev-server --host 0.0.0.0 --profile --progress"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SmartHoldem/smartholdem-wallet-online.git"
+  },
+  "author": {
+    "name": "Smartholdem Developers",
+    "email": "dev@smartholdem.io",
+    "url": "https://github.com/smartholdem"
   },
   "dependencies": {
     "angular": "^1.5.8",

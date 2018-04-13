@@ -21,9 +21,9 @@
   "build": {
     "appId": "io.smartholdem.online.wallet",
     "mac": {
-      "category": "finance"
+      "category": "internet"
     },
-    "productName": "SmartHoldem Lite",
+    "productName": "SmartHoldem Mini",
     "win": {
       "target": "nsis"
     }
