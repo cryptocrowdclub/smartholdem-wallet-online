@@ -24,7 +24,7 @@
     "bitcore-mnemonic": "^1.1.1",
     "debug": "^2.2.0",
     "jquery": "^3.2.1",
-    "sthjs": "git://github.com/smartholdem/sth-js",
+    "sthjs": "git://github.com/smartholdem/sth-js#wallet",
     "lodash": "^4.16.4",
     "moment": "^2.15.1",
     "numeral": "^1.5.3"
